@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<examen.Models.Contacto> DataContacto {get; set; }
 }
